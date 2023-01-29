@@ -208,3 +208,6 @@ dependencies {
   androidTestImplementation(libs.androidX.test.junit)
   androidTestImplementation(libs.uiautomator)
 }
+
+
+apply(from = "https://raw.githubusercontent.com/JakeWharton/SdkSearch/master/gradle/projectDependencyGraph.gradle")
